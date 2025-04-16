@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WM Dapur Nusantara</title>
+</head>
+<body style="margin: 0; font-family: arial, sans-serif;">
+
+   
+
+
+
+    <!-- Layout Utama -->
+    <div style="display: flex; min-height: 100vh;">
+
+        <!-- Sidebar Navigasi -->
+        <nav style="width: 200px; background-color: #4E342E; color: white; padding: 20px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <h2 style="color: #d4a762;">RM Dapur Nusantara </h2>
+                <p style="font-size: 12px;">Anda kenyang kami senang</p>
+            </div>
+            
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin-bottom: 15px;">
+                    <a href="#beranda" style="color: white; text-decoration: none; display: block; padding: 8px; border-left: 3px solid #d4a762;">Beranda</a>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <a href="#menu" style="color: white; text-decoration: none; display: block; padding: 8px;">Menu Kami</a>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <a href="#reservasi" style="color: white; text-decoration: none; display: block; padding: 8px;">Reservasi</a>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <a href="#ulas" style="color: white; text-decoration: none; display: block; padding: 8px;">Ulas Kami</a>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <a href="#kontak" style="color: white; text-decoration: none; display: block; padding: 8px;">Kontak</a>
+                </li>
+            </ul>
+            
+            <div style="margin-top: 250px; text-align: center;">
+                <p style="font-size: 12px;">Jam Buka:</p>
+                <p style="font-size: 14px; margin-top: 5px;">Senin-Jumat: 8:00-21:00</p>
+                <p style="font-size: 14px;">Sabtu-Minggu: 9:00-22:00</p>
+            </div>
+        </nav>
+
+        <!-- Konten Utama -->
+        <main style="flex: 1; background-color: #FFD59E;"><!--ubah margin ini-->
+            
+
+            <!-- Hero Section -->
+            <section id="beranda"><!--ubah margin ini-->
+                <!--border radius atas-->
+                <div style="padding: 30px; border-radius: px; color: #5E412F; text-align: left;background-image: url('background.png'); background-size: cover;background-repeat: no-repeat;background-position: center;">
+
+                    <h1 style="margin-top: 0;font-size: 3.5rem;">Selamat Datang <br>di Rumah Makan <br>Dapur Nusantara</h1>
+                    <h3>Cita Rasa Asli Indonesia</h3>
+                    <button style="background-color: #BA6D36; color: white;border-radius: 8px; border: none; padding: 10px 20px; margin-top: 15px; cursor: pointer;">
+                        Lihat Menu
+                    </button>
+                    
+                </div>
+            </section>
+
+            <!-- Menu Section -->
+            <section id="menu" style="margin-bottom: 40px;background-color:#FFD59E;padding: 10px;border-radius: px ;">
+                <div style="display:flex;margin-left: 20px;">
+                    <h2 style="color: #3a2c2c;">Menu Andalan Kami</h2>
+                    <!--search bar-->
+                    <div style="margin-left: auto;margin-top: 20px;margin-right: 20px;">
+                        <input type="text" placeholder="Cari sesuatu..." style=" padding: 8px;border-radius: 10px;border: 1px solid #ccc;width: 250px;">
+                        <button style="padding: 8px 12px;border-radius: 10px;border: none;background-color: #4CAF50;color: white;cursor: pointer;">Cari</button>
+
+                    </div>
+                </div>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;margin-left: 20px;margin-bottom: 15px;">
+                    <div style="background-color: white; padding: 15px; border-radius: 5px; width: 150px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <img src="nasi goreng.jpg" alt="nasi goreng" style="width: 100%; height: auto; border-radius: 5px;">
+                        <h3 style="margin-top: 0; color: #d4a762;">Nasi Goreng </h3>
+                        <span style="color: gold;">★ ★ ★ ★ ★</span>
+                        <p><s>Rp18.000</s><b>Rp15.000</b></p>
+                    </div>
+                    
+                    <div style="background-color: white; padding: 15px; border-radius: 5px; width: 150px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <img src="iga bakar.jpg" alt="nasi goreng" style="width: 100%; height: auto; border-radius: 5px;">
+                        <h3 style="margin-top: 0; color: #d4a762;">Iga Bakar</h3>
+                        <span style="color: gold;">★ ★ ★ ★ ☆</span>
+                        <p><s>Rp40.000</s><b>Rp34.000</b></p>
+                    </div>
+                    
+                    <div style="background-color: white; padding: 15px; border-radius: 5px; width: 150px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <img src="sate maranggi.jpg" alt="nasi goreng" style="width: 100%; height: auto; border-radius: 5px;">
+
+                        <h3 style="margin-top: 0; color: #d4a762;">Sate Maranggi</h3>
+                        <span style="color: gold;">★ ★ ★ ★ ☆</span>
+                        <p><s>Rp35.000</s><b>Rp31.000</b></p>
+                    </div>
+                    <div style="background-color: white; padding: 15px; border-radius: 5px; width: 150px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <img src="pecel lele.png" alt="nasi goreng" style="width: 100%; height: auto; border-radius: 5px;">
+                        <h3 style="margin-top: 0; color: #d4a762;">Pecel Lele </h3>
+                        <span style="color: gold;">★ ★ ★ ★ ⯪</span>
+                        <p><s>Rp25.000</s><b>Rp23.000</b></p>
+                    </div>
+                    <div style="background-color: white; padding: 15px; border-radius: 5px; width: 150px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <img src="bebek_bakar.png" alt="nasi goreng" style="width: 100%; height: auto; border-radius: 5px;">
+                        <h3 style="margin-top: 0; color: #d4a762;">Bebek Bakar </h3>
+                        <span style="color: gold;">★ ★ ★ ★ ★</span>
+                        <p><s>Rp30.000</s><b>Rp29.999</b></p>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+
+           
+
+            <!-- reservasi Section -->
+            <section id="reservasi" style="margin-bottom: 40px;">
+                <h2 style="color: #3a2c2c; border-bottom: 2px solid #d4a762; padding-bottom: 5px;margin-left: 20px;">Reservasi</h2>
+                <p style="margin-left: 20px;"><b>Silahkan isi Form ini untuk reservasi online</b></p>
+                <form>
+               
+                    <div style="background-color: #FFD59E; margin-left: 20px; border-radius: 5px;margin-right: 40px;">
+                        
+                        <div style="margin-bottom: 1em;">
+                            <label for="tanggal" style="display: block; margin-bottom: 5px;">Tanggal Reservasi</label>
+                            <input type="date" id="tanggal" name="tanggal" style="padding: 8px; width: 200px;">
+                        </div>
+                        
+                        <div style="margin-bottom: 10px;">
+                            <label style="display: block; margin-bottom: 5px;">Nama Anda</label>
+                            <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 3px;">
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <label style="display: block; margin-bottom: 5px;">No.HP</label>
+                            <input type="tel" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 3px;">
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <label style="display: block; margin-bottom: 5px;">Catatan Tambahan</label>
+                            <textarea style="width: 100%;resize: none; padding: 8px; border: 1px solid #ddd; border-radius: 3px; height: 30px;"></textarea>
+                            
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label for="jumlah" style="display:block ;">Jumlah Orang:</label>
+                            <input type="number" id="jumlah" name="jumlah" min="1" max="100" value="1" style="padding: 8px;border: none;border-radius: 3px;">
+                        </div>
+
+
+                    
+                        <button style="background-color: #BA6D36;display: block; color: white; border: none; padding: 10px 20px;border-radius: 5px; margin-top: 10px; cursor: pointer;">
+                            Reservasi Sekarang
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="ulas" style="margin-bottom: 40px;">
+                <h2 style="color: #3a2c2c; border-bottom: 2px solid #d4a762; padding-bottom: 5px;margin-left: 20px;">Ulas Kami</h2>
+            <!--Ulasan-->
+            <div style="background-color: #FFD59E; padding: 20px; border-radius: 5px;margin-right: 20px; margin-top: 20px;">
+                <form>
+                
+                
+                    <div style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Nama Anda</label>
+                        <input type="text" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 3px;">
+                    </div>
+                    
+                    <div style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Email</label>
+                        <input type="email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 3px;">
+                    </div>
+                    
+                    <div style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Ulasan</label>
+                        <textarea style="width: 100%;resize: none; padding: 8px; border: 1px solid #ddd; border-radius: 3px; height: 50px;"></textarea>
+                        
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label style="display: block; margin-bottom: 5px;">Rating</label>
+                        <div style="display: inline-block; direction: rtl;">
+                            <span style="font-size: 30px; color: gray; cursor: pointer;" >★</span>
+                            <span style="font-size: 30px; color: gray; cursor: pointer;" >★</span>
+                            <span style="font-size: 30px; color: gray; cursor: pointer;" >★</span>
+                            <span style="font-size: 30px; color: gray; cursor: pointer;" >★</span>
+                            <span style="font-size: 30px; color: gray; cursor: pointer;" >★</span>
+                          </div>
+                          
+                          
+                          
+                        
+                    </div>
+                    <button type="submit" style="background-color: #BA6D36; color: white; border: none;border-radius:5px ; padding: 10px 20px; cursor: pointer;">
+                        Kirim Ulasan
+                    </button>
+                </form>
+                    <h2 style="color:#3a2c2c;font-weight: bold;">Ulasan Pelanggan:</h2>
+                    <div style="width: 95%; margin:0 auto; background-color: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+                        <!-- Komentar -->
+                         
+                        <div style="display: flex; margin-bottom: 20px;">
+                          <img src="crocodino bombardilo.jpg" alt="Profil" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-right: 15px;">
+                          
+                          <div>
+                            <div style="font-weight: bold; margin-bottom: 5px;">Crocodino Bombardilo</div>
+                            
+                            <div style="color: #ffb400; font-size: 18px; margin-bottom: 8px;">
+                              ★★★★☆
+                            </div>
+                            
+                            <div style="font-size: 14px; color: #333;">
+                              Pelayanannya sangat baik, harganya juga terjangkau. Saya ingin beli lagi
+                            </div>
+                          </div>
+                        </div>
+
+                        <div style="display: flex; margin-left: 75px; margin-bottom: 25px;">
+                            <div style="background-color: #f0f0f0; padding: 10px 15px; border-radius: 10px;">
+                              <div style="font-weight: bold; font-size: 13px; color: #007BFF;">Owner</div>
+                              <div style="font-size: 13px; color: #333;">Terima kasih banyak atas ulasannya! Kami tunggu orderan selanjutnya</div>
+                            </div>
+                        </div>
+                    
+                        
+                        <div style="display: flex; margin-bottom: 20px;">
+                          <img src="Tung Tung Tung Sahur.jpg" alt="Profil" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-right: 15px;">
+                          
+                          <div>
+                            <div style="font-weight: bold; margin-bottom: 5px;">Tung Tung sahur</div>
+                            
+                            <div style="color: #ffb400; font-size: 18px; margin-bottom: 8px;">
+                              ★★★★★
+                            </div>
+                            
+                            <div style="font-size: 14px; color: #333;">
+                              Makanannya enak dan pelayannya sangat ramah auto bintang 5
+                            </div>
+                          </div>
+                        </div>
+                        <div style="display: flex; margin-bottom: 20px;">
+                            <img src="Hitam.jpg" alt="Profil" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-right: 15px;">
+                            
+                            <div>
+                              <div style="font-weight: bold; margin-bottom: 5px;">Buzzer Toko Sebelah</div>
+                              
+                              <div style="color: #ffb400; font-size: 18px; margin-bottom: 8px;">
+                                ★☆☆☆☆
+                              </div>
+                              
+                              <div style="font-size: 14px; color: #333;">
+                                Tempatnya sangat gelap kurang nyaman
+                              </div>
+                            </div>
+                          </div>
+                          <div style="display: flex; margin-left: 75px; margin-bottom: 25px;">
+                            <div style="background-color: #f0f0f0; padding: 10px 15px; border-radius: 10px;">
+                              <div style="font-weight: bold; font-size: 13px; color: #007BFF;">Owner</div>
+                              <div style="font-size: 13px; color: #333;">Bukan tempatnnya yang gelap, tapi kamu yang gelap</div>
+                            </div>
+                        </div>
+                      </div>
+                    
+            </div>
+            
+            
+
+                  
+
+
+
+            </section>
+
+            <!-- Kontak Section -->
+            <section id="kontak" style="margin-bottom: 40px;">
+                <h2 style="color: #3a2c2c; border-bottom: 2px solid #d4a762; padding-bottom: 5px;margin-left: 20px;">Hubungi Kami</h2>
+                
+                <div style="background-color:  #FFD59E; margin-left: 20px; border-radius: 5px; ">
+                    <p><strong>Alamat:</strong> Jl. Crocodino No. 99, Kota Gusini</p>
+                    <p><strong>Telepon:</strong> (021) 1234 5678</p>
+                    <p><strong>Email:</strong> RMDNusanatar@gmail.com</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #3a2c2c; color: white; text-align: center; padding: 15px;">
+        <p style="margin: 0;">&copy; 2025 RM Dapur Nuasantara.</p>
+    </footer>
+
+</body>
+</html>
